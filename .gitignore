@@ -1,0 +1,8 @@
+mykernel/
+
+yolo11n-seg.pt
+yolo11m-seg.pt
+yolo11n.pt
+
+runs/segment/m_1280_500e/weights/
+runs/segment/m_1280_500e_augmented/weights/

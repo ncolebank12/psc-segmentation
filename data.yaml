@@ -4,3 +4,15 @@ names:
 path: .
 train: images/train
 val: images/val
+
+augment:
+  hsv_h: 0.015  # Hue adjustment
+  hsv_s: 0.7    # Saturation adjustment
+  hsv_v: 0.4    # Value adjustment
+  flipud: 0.5   # Vertical flip probability
+  fliplr: 0.5   # Horizontal flip probability
+  mosaic: 1.0   # Mosaic augmentation probability
+  mixup: 0.2    # MixUp augmentation probability
+  translate: 0.2
+  scale: 0.5
+  
